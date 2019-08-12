@@ -1,0 +1,6 @@
+圣杯布局和双飞翼布局,就差在最后的
+圣杯是中间的margin-left和margin-right,然后左右各自相对定位,左移和右移
+双飞翼是在中间的里面从新弄一个div把他的margin-left和margin-right设为左右各自的定宽
+其中最关键的是 左右要margin-left 100% 和 定宽  
+都是margin-left
+
