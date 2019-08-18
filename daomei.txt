@@ -62,3 +62,8 @@ void(*p)();//指针变量p指向一个函数,这个函数的返回类型和参�
 
 糊涂了
 今天先回去了 ~~~~~~
+今天遇到 object.setAttribute('onclick','check(this);return false;');
+太恶心了,一直在想函数里面的return false,只退出当前的函数.但是没有退出object的动作,所以要在check(this);return false;
+一直以为check后面不能加东西,好事too young too simple啊
+还以为是作用域的问题
+试了各种封闭作用域,直觉就说应该是object的动作没有暂停.多看多写.
